@@ -1,0 +1,5 @@
+/*! malachite 21-07-2016 */
+window.alert("expanding.js activated now")
+$('#myCollapsible').on('hidden.bs.collapse', function () {
+  document.getElementById('benefits').scrollIntoView();
+})

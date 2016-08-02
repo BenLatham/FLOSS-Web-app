@@ -1,0 +1,12 @@
+Cardiff Bute Park
+Location 317600E 177300N, Lat 51.488 Lon -3.187, 9 metres amsl
+Estimated data is marked with a * after the value.
+Missing data (more than 2 days missing in month) is marked by  ---.
+Sunshine data taken from an automatic Kipp & Zonen sensor marked with a #, otherwise sunshine data taken from a Campbell Stokes recorder.
+   yyyy  mm   tmax    tmin      af    rain     sun
+              degC    degC    days      mm   hours
+   1977   9   18.3     8.1       0    48.6   117.9
+   1977  10   15.4     9.0       0    76.0    80.4
+   1977  11   10.3     4.7       4   147.9    76.4
+   1977  12    9.6     4.6       2    88.0    25.6
+   1978   1    7.5     2.0       6   134.1    64.7
