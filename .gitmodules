@@ -1,0 +1,3 @@
+[submodule "src/py"]
+	path = src/py
+	url = https://github.com/BenLatham/FLOSS-Agricultural-Simulation.git
