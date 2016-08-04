@@ -6,15 +6,19 @@ module.exports = function(grunt) {
     concat: {
       options: {
         //define a string to seperate files in the concatenated output
-        seperator: ';',
-        // the banner is inserted at the top of the output
-        banner: '/*! <%= pkg.name %> \n* Copyright Ben Latham <%= grunt.template.today("dd-mm-yyyy") %> \n* Licenced under the MIT licence */\n'
+        seperator: ';'
       },
-      dist: {
+      dist1: {
         //the files to concatenate
         src: ['src/js/custom/*.js'],
         //the location of the resulting JS file
         dest: 'src/js/<%= pkg.name %>.js'
+      },
+      dist2: {
+        //the files to concatenate
+        src: ['src/js/bootstrap/*.js'],
+        //the location of the resulting JS file
+        dest: 'src/js/bootstrap.js'
       }
     },
     uglify: {
@@ -36,9 +40,6 @@ module.exports = function(grunt) {
     },
     less: {
       expanded: {
-        options: {
-          banner:"/*!\n* Creative v 1.0.4 (http://startbootstrap.com/template-overviews/creative)\n* Copyright 2013 Start Bootstrap\n* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)\n* Modified by Ben Latham 2016\n*/\n"
-        },
         files: [
           {
             expand: true,
@@ -78,7 +79,15 @@ module.exports = function(grunt) {
             dest:   "dist/",
             ext:    ".html",
             extDot: "first"
-          }
+          },
+          {
+            expand: true,
+            cwd:    "src/",
+            src:    ["*.php"],
+            dest:   "dist/",
+            ext:    ".php",
+            extDot: "first"
+          },
         ]
       },
       testsite: {
@@ -112,7 +121,7 @@ module.exports = function(grunt) {
       }
     },
     qunit: {
-      files: ['test/*.html']
+      files: ['test/*.html', 'test/bootstrap/index.html']
     },
     jshint: {
       // define the files to lint
@@ -136,7 +145,7 @@ module.exports = function(grunt) {
         }
       },
       copy: {
-        files: ['src/*.html'],
+        files: ['src/*.html', 'src/*.php'],
         tasks: ['copy:main']
       }
     }
