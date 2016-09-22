@@ -1,0 +1,11 @@
+(c) Crown Copyright 2009. 
+
+The UK Climate Projections data have been made available by the 
+Department for Environment, Food and Rural Affairs (Defra) and 
+Department for Energy and Climate Change (DECC) under licence 
+from the Met Office, Newcastle University, University of East
+Anglia and Proudman Oceanographic Laboratory. These organisations 
+accept no responsibility for any inaccuracies or omissions in 
+the data, nor for any loss or damage directly or indirectly 
+caused to any person or body by reason of, or arising out of, 
+any use of this data.

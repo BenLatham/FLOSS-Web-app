@@ -1,0 +1,4 @@
+// Variables
+
+@theme-primary: #ff0000; //#444499;
+@theme-dark: #222;
