@@ -1,2 +1,0 @@
-year, month, day, day_count, transition, precip_dtotal, temp_dmin, temp_dmax, vapourpressure_dmean, relhum_dmean, sunshine_dtotal, diffradt_dtotal, dirradt_dtotal, pet_dmean
--, -, -, -, -, mm/day, degC, degC, hPa, %, hours, kWh/m2, kWh/m2, mm/day
