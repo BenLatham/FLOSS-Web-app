@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12">
+      <h1 class="text-center">{% block heading %}{% endblock %}</h1>
+      <hr>
+      {% block message %}{% endblock %}
+    </div>
+    <div class="col-xs-12 col-sm-12 text-center">
+      {% block links %}{% endblock %}
+    </div>
+  </div>
+</div>
+{% endblock %}
+

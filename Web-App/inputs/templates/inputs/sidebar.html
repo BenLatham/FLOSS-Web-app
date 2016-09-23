@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block custom_css %}
+  <link rel="stylesheet" href="{% static "inputs/css/simple_sidebar.min.css" %}" type="text/css">
+{% endblock %}
+
+{% block title %}Simulation{% endblock %}
+
+{% block body %}
+<div id="wrapper">
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li><a href="intro">Introduction</a></li>
+      <hr>
+      <li><a href="financial">Financial</a></li>
+      <li><a href="assets">Assets</a></li>
+      <li><a href="land">Land</a></li>
+      <li><a href="dairy">Dairy</a></li>
+      <li><a href="cropping">Cropping</a></li>
+      <li><a href="forage">Forage</a></li>
+      <hr>
+      <li><a href="summary">Summary</a></li>
+    </ul>
+  </div>
+
+  <!-- /#sidebar-wrapper -->
+  
+  <!-- Page Content -->
+  <div id="page-content-wrapper">
+    {% block content %}{% endblock %}
+  </div>
+</div>
+
+{% endblock %}

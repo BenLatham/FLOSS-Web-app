@@ -1,0 +1,12 @@
+{% extends "message.html" %}
+{% load bootstrap %}
+
+{% block title %}FLOSS: enterprise details{% endblock %}
+{% block heading %}Enterprise Details{% endblock %}
+{% block message %}
+<form method="post">
+    {% csrf_token %}
+    {{ formset|bootstrap }}
+    <input type="submit" value="Submit" />
+</form>
+{% endblock %}

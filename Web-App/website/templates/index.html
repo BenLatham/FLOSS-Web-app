@@ -1,0 +1,23 @@
+{% extends "message.html" %}
+
+{% block title %}FLOSS{% endblock %}
+
+{% block heading %}Welcome to FLOSS!{% endblock %}
+
+{% block message %}
+  <p>FLOSS Agricultural Simulation is a: Farm Level, Open Source Simultaion</p>
+  <p>FLOSS is a farm simulation, aimed at improving understanding of farm systems, and in particular how climate impacts
+    individual farms. This app includes three elements: a wiki documenting the FLOSS code (Documentation), an interface
+    allowing users to enter the model imputs and run a simulation of a particular farm(Simulation), and a user guide for
+    this web interface (User Guide). Please be aware that the model is still under development, and is presented here
+    for demonstration purposes only.</p>
+  <p>To run the simulation choose "Simulation"</p>
+  <p>To find out more about the simulation including it's aims, chose "Documentation"</p>
+  <p>For help on how to run the simulation chose "User Guide"</p>
+{% endblock %}
+
+{% block links %}
+  <a class="btn btn-default" href="/simulation" role="button">Simulation</a>
+  <a class="btn btn-default" href="https://github.com/BenLatham/FLOSS-Agricultural-Simulation/wiki" role="button">Documentation <i class="fa fa-external-link" title="external link"></i><span class="sr-only">(external link)</span></a>
+  <a class="btn btn-default" href="/no_page" role="button">User Guide</a>
+{% endblock %}

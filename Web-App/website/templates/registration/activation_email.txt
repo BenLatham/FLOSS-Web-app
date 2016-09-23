@@ -1,0 +1,4 @@
+The following key allows activation of your FLOSS account
+either follow the link or coppy and paste it into your browsers address bar:
+{{site}}/accounts/activate/{{activation_key}}/
+This key will expire in {{expiration_days}} days.
