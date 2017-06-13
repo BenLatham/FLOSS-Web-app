@@ -34,9 +34,9 @@ INSTALLED_APPS = [
     'simulation.apps.SimulationConfig',
     'inputs.apps.InputsConfig',
     'website.apps.WebsiteConfig',
-    'bootstrapform',
+    'bootstrapform', #django-bootstrap-form https://pypi.python.org/pypi/django-bootstrap-form
     'django.contrib.admin',
-    'django.contrib.auth',
+    'django.contrib.auth', #dajango-registration
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
