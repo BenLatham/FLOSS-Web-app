@@ -99,4 +99,3 @@ ENV/
 /Web-App/csvReader
 /Web-App/floss/__pycache__/
 /.idea/workspace.xml
-*.py[cod]
