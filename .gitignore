@@ -1,3 +1,5 @@
 /Web-App/simulation
 /Web-App/csvReader
 /.idea/workspace.xml
+*.py[cod]
+/Web-App/floss/__pycache__/
