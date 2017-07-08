@@ -14,6 +14,8 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+WEATHER_DIR = os.path.join(BASE_DIR, "simulation", "weather")
+FEEDS_DIR = os.path.join(BASE_DIR, "simulation", "feeds")
 
 
 # Quick-start development settings - unsuitable for production
