@@ -16,6 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WEATHER_DIR = os.path.join(BASE_DIR, "simulation", "weather")
 FEEDS_DIR = os.path.join(BASE_DIR, "simulation", "feeds")
+COSTS_DIR = os.path.join(BASE_DIR, "simulation", "costs")
 
 
 # Quick-start development settings - unsuitable for production
