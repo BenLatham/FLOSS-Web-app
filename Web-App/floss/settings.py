@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'inputs.apps.InputsConfig',
     'website.apps.WebsiteConfig',
     'csvReader.apps.CsvreaderConfig',
+    'dairy_py.apps.DairyPyConfig'
     'bootstrapform', #django-bootstrap-form https://pypi.python.org/pypi/django-bootstrap-form
     'django.contrib.admin',
     'django.contrib.auth', #dajango-registration
