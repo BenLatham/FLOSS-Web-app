@@ -100,3 +100,4 @@ ENV/
 /Web-App/dairy_py
 /Web-App/floss/__pycache__/
 /.idea/workspace.xml
+/.idea/dbnavigator.xml
