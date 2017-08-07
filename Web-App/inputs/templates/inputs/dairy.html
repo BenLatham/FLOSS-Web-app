@@ -1,10 +1,35 @@
 {% extends "inputs/sidebar.html" %}
+{% load bootstrap %}
 {% block content %}
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12">
       <h1>Dairy</h1>
       <p>Submit details of dairy enterprise using this form.</p>
+      <form method="post">
+        {% csrf_token %}
+        <table>
+            <thead>
+                {% for form in formset.forms %}
+                    {% if forloop.first %}
+                        {% for field in form %}
+                            <th>{{ field.label_tag }}</th>
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            </thead>
+            <tbody>
+                {% for form in formset.forms %}
+                    <tr>
+                        {% for field in form %}
+                            <td>{{ field }}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+      <input type="submit" value="Submit" />
+      </form>
     </div>
   </div>
 </div>
