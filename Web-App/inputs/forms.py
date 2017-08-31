@@ -9,7 +9,7 @@ class FormsetForm(forms.Form):
 
 class TradesSheetForm(forms.ModelForm):
     class Meta:
-        model = acc.TradesSheet
+        model = acc.Trade
         fields = ['trader', 'item', 'month', 'quantity']
         widgets = {
             'month':forms.Select()

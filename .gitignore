@@ -95,6 +95,7 @@ ENV/
 # Rope project settings
 .ropeproject
 
+/Web-App/CropPcse
 /Web-App/simulation
 /Web-App/csvReader
 /Web-App/dairy_py
