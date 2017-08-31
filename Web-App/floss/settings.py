@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'simulation.apps.SimulationConfig',
     'inputs.apps.InputsConfig',
     'website.apps.WebsiteConfig',
-    'dairy_py.apps.DairyPyConfig',
     'CropPcse.apps.CroppcseConfig',
     'bootstrapform', #django-bootstrap-form https://pypi.python.org/pypi/django-bootstrap-form
     'django.contrib.admin',
